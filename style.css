@@ -1,0 +1,69 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.cactus-container{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    
+}
+.cactus-content{
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 15px;
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cactus-content img{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    
+}
+.cactus-content button{
+    color: blueviolet;
+    background-color: rgb(212, 184, 238);
+    font-weight: 700;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.cactus-content h2{
+    font-size: 1.5rem;
+    margin-bottom: 15px;  
+}
+.cactus-content p{
+    margin-bottom: 25px;
+    color: rgb(155, 152, 152);
+}
+.cactus-content hr{
+    margin-bottom: 14px;
+}
+.name{
+    margin-top: 28px;
+} 
+/* mobile */
+@media screen and (max-width:576px) {
+    .cactus-content{
+        margin-top: 40%;
+        width: 70%;
+    }
+}
+/* tab */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .cactus-content{
+        margin-top: 20%;
+        width: 50%;
+    }
+}
+
+
+
